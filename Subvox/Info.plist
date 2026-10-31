@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.developer-tools</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -27,6 +27,6 @@
 	<key>NSMotionUsageDescription</key>
 	<string>Subvox reads AirPods head-motion data to study whether mouthed words can be decoded into text.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>Subvox transcribes microphone audio on-device as a reference for the motion decoder.</string>
+	<string>Subvox transcribes microphone audio as a reference for the motion decoder, using on-device recognition when available.</string>
 </dict>
 </plist>
